@@ -10,6 +10,8 @@ import CodingTopics from './Components/CodingTopics';
 import JavaCodingQuestions from './Components/JavaCodingQuestions';
 import Signup from './Components/Signup';
 import Homepage from './Components/Hompage';
+import axios from 'axios';
+
 
 axios.defaults.baseURL = " https://1710-13-51-171-79.ngrok-free.app";
 axios.defaults.headers = {

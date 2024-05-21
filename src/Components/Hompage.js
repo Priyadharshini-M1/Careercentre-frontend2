@@ -1,6 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import profilePic from './profile.png'; // Import your profile picture
+import { useNavigate } from 'react-router-dom'; // Import your profile picture
 import './Homepage.css';
 
 const Home = () => {
@@ -32,7 +31,6 @@ const Home = () => {
     <div className='container'>
       {/* Display profile picture and username in the top right corner */}
       <div className='user-info'>
-        <img src={profilePic} alt='Profile Pic' className='profile-pic' /> {/* Use the imported profile picture */}
         <span className='username'>{username}</span>
         <div>
         <button className='logout-btn' onClick={handleLogout}>Logout</button>

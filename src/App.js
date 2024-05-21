@@ -13,7 +13,7 @@ import Homepage from './Components/Hompage';
 import axios from 'axios';
 
 
-axios.defaults.baseURL = " https://1710-13-51-171-79.ngrok-free.app";
+axios.defaults.baseURL = " https://8e88-13-51-171-79.ngrok-free.app";
 axios.defaults.headers = {
   "Content-Type": "application/json",
   "ngrok-skip-browser-warning":"69420",
